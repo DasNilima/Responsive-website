@@ -25,7 +25,7 @@
                 <a href="#" class="hover:text-darkGrayishBlue">Home</a>
                 <a href="#" class="hover:text-darkGrayishBlue">about</a>
                 <a href="#" class="hover:text-darkGrayishBlue">Courses</a>
-                <a href="#" class="hover:text-darkGrayishBlue">Project</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
                 <a href="#" class="hover:text-darkGrayishBlue">Community</a>
             </div>
             <!-- Button -->
@@ -33,10 +33,31 @@
             href="#"
             class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
             >Free Trial</a>
+        <!-- Hamburger Icon -->
+        <button
+        id="menu-btn"
+        class="block hamburger md:hidden focus:outline-none">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+        </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+        <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+            >
+            <a href="#">Pricing</a>
+            <a href="#">Courses</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Community</a>
+        </div>
         </div>
         </nav>
     </header>
-    <main>
+<main>
         <!-- Hero Section -->
     <section>
         <!-- Flex Container -->
@@ -150,7 +171,7 @@
                 <h4 class="font-bold text-darkBlue mb-4">Popular Courses</h4>
                 <h1 class="text-3xl md:text-4xl font-bold leading-snug">Explore Our Learning Opportunity</h1>
             </div>
-            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-3 md:grid-cols-1 gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8">
                 <!-- course no 1 -->
                 <div class="bg-veryPaleRed border-2 border-solid border-darkGrayishBlue text-center py-20 px-5 rounded-2xl cursor-pointer">
                     <div class="bg-brightRedSupLight inline-block rounded-2xl py-5 px-6">
@@ -173,14 +194,6 @@
                         <i class="fa-solid fa-code text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold py-4">CyberSecurity</h3>
-                    <p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <!-- course no 4 -->
-                <div class="bg-veryPaleRed border-2 border-solid border-darkGrayishBlue text-center py-20 px-5 rounded-2xl cursor-pointer">
-                    <div class="bg-brightRedSupLight inline-block rounded-2xl py-5 px-6">
-                        <i class="fa-solid fa-code text-4xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold py-4">AI</h3>
                     <p class="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
         </div>
@@ -217,7 +230,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="bg-white flex justify-center items-center gap-x-4">
+        <div class="bg-brightRed flex justify-center items-center gap-x-4">
         <button id="prevButton" class="goPrev w-8 h-8 rounded-full">
             <i class="fa-solid fa-angles-left w-4 h-4 inline-flex justify-center"></i>
         </button> 
